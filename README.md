@@ -6,6 +6,7 @@ Rails specific task collection for Capistrano v3 as extension of the official ca
 
     cap production rails:rake:log:clear
     cap production rails:rake:tmp:clear
+    cap production rails:rake:db:create
     cap production rails:rake:db:drop
     cap production rails:rake:db:reset
     cap production rails:rake:db:setup
